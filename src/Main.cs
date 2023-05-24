@@ -46,7 +46,7 @@ internal class OverworldBuildSurfacesHook : THookBase<OverworldBuildSurfacesHook
 }
 #endregion
 #region NetherGenerator._prepareHeights
-internal delegate void NetherPrepareHeightsHookCallback(nint @this, nint a2, nint a3, bool a4, vector<short> a5, int a6);
+internal delegate void NetherPrepareHeightsHookCallback(nint @this, nint a2, nint a3, bool a4, pointer<vector<short>> a5, int a6);
 [HookSymbol("?_prepareHeights@NetherGenerator@@AEAAXAEAVBlockVolume@@AEBVChunkPos@@_NPEAV?$vector@FV?$allocator@F@std@@@std@@H@Z")]
 internal class NetherPrepareHeightsHook : THookBase<NetherPrepareHeightsHookCallback>
 {
@@ -62,7 +62,7 @@ internal class NetherBuildSurfacesHook : THookBase<NetherBuildSurfacesHookCallba
 }
 #endregion
 #region TheEndGenerator._prepareHeights
-internal delegate void TheEndPrepareHeightsHookCallback(nint @this, nint a2, nint a3, bool a4, vector<short> a5, int a6);
+internal delegate void TheEndPrepareHeightsHookCallback(nint @this, nint a2, nint a3, bool a4, pointer<vector<short>> a5, int a6);
 [HookSymbol("?_prepareHeights@TheEndGenerator@@AEAAXAEAVBlockVolume@@AEBVChunkPos@@_NPEAV?$vector@FV?$allocator@F@std@@@std@@H@Z")]
 internal class TheEndPrepareHeightsHook : THookBase<TheEndPrepareHeightsHookCallback>
 {
