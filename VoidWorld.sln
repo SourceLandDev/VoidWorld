@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33513.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoPortal", "src\NoPortal.csproj", "{FBACE738-23D4-462D-A930-F5990E61DE5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoidWorld", "src\VoidWorld.csproj", "{FBACE738-23D4-462D-A930-F5990E61DE5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
